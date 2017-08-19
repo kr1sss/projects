@@ -60,7 +60,7 @@ header h1 {
 	font-family: 'Montserrat',sans-serif;
 	font-size: 100px;
 	letter-spacing: 5px;
-	margin-top: 350px;
+	margin-top: 30vh;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -99,6 +99,7 @@ header p {
 	font-size: 20px;
 	line-height: 50px;
 	margin-top: 180px;
+	margin-left: 100px;
 }
 
 .image-container {
@@ -217,7 +218,7 @@ footer {
 footer .fa {
 	font-size: 50px;
 	display: inline-block;
-	padding-top: 30px;
+	padding: 15px;
 }
 
 footer .fa-arrow-up {
@@ -271,6 +272,34 @@ footer .fa:hover {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    header h1 {	
+    	font-size: 40px;
+    }
+
+    header p {
+    	font-size: 20px;
+    }
+
+    .aboutMe h2 {
+    	font-size: 30px;
+    }
+
+    .aboutMe p {
+    	font-size: 15px;
+    	margin-top: 1vh;
+    	margin-left: 100px;
+    }
+
+    .contact h2 {
+    	font-size: 35px;
+    }
+
+    .contact p {
+    	font-size: 15px;
+    	margin-top: 13vh;
+    	margin-left: 100px
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -286,6 +315,34 @@ footer .fa:hover {
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+
+    header h1 {	
+    	font-size: 50px;
+    }
+
+    header p {
+    	font-size: 30px;
+    }
+
+    .aboutMe h2 {
+    	font-size: 40px;
+    }
+
+    .aboutMe p {
+    	font-size: 15px;
+    	margin-top: 1vh;
+    	margin-left: 100px;
+    }
+
+    .contact h2 {
+    	font-size: 40px;
+    }
+
+    .contact p {
+    	font-size: 15px;
+    	margin-top: 13vh;
+    	margin-left: 100px
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

@@ -1,5 +1,5 @@
 AOS.init();
 
 $('#scroll-top').click(function() {
-	$('html, body').animate({ scrollTop:0 } , 1500);
+	$('html, body').animate({ scrollTop:0 }, 1500);
 });
