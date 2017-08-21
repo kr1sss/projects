@@ -185,9 +185,10 @@ header p {
 	position: absolute;
 	right: -20px;
 	top: 0;
-	width: 3px;
+	width: 7px;
 	height: 100%;
 	background: #9778B2;
+	border-radius: 1px;
 }
 
 .contact h2 {
