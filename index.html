@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/fonts/font-mfizz.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -15,11 +16,10 @@
 	<header id="Home">
 		<div class="background">
 			<div class="layer">
-				<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<nav class="navbar navbar-inverse" role="navigation">
 		            <div class="container">
 		                <div class="navbar-header">
 		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		                        <span class="sr-only">Toggle navigation</span>
 		                        <span class="icon-bar"></span>
 		                        <span class="icon-bar"></span>
 		                        <span class="icon-bar"></span>
@@ -28,9 +28,9 @@
 		                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		                    <ul class="nav navbar-nav navbar-right">
 		                        <li><a href="#Home">Home</a></li>
-		                        <li><a href="#About">O mnie</a></li>
-		                        <li><a href="#Project">Projekty</a></li>
-		                        <li><a href="#Contact">Kontakt</a></li>
+		                        <li><a href="#" id="About1">About me</a></li>
+		                        <li><a href="#" id="Project1">Projects</a></li>
+		                        <li><a href="#" id="Contact1">Contact</a></li>
 		                    </ul>
 		                </div>
 		            </div>
@@ -40,24 +40,25 @@
 			</div>
 		</div>
 	</header>
-	<section class="aboutMe container-fluid" id="About">
+	<section class="aboutMe container-fluid" id="About2">
 		<div class="row">
 			<div class="col-1 verticalLine aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
-				<h2>O mnie</h2>
+				<h2>About me</h2>
 			</div>
 			<div class="col-11 aos-init aos-animate" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>
-				irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br>		occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>I've been learning coding for few months and I really like it!<br>
+				I like creating and seeing my effects of work.<br>
+				I'm still learning some of the frameworks below, but I'm getting better day by day.<br> </p>
 			</div>
 		</div>
 	</section>
-	<section class="projects container-fluid" id="Project">
+	<section class="projects container-fluid" id="Project2">
 		<div class="row">
 			<div class="col-4 col-s-12 col-m-6 image-container aos-init aos-animate" data-aos="fade-down" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="2000">
 				<img src="http://i.imgur.com/CfGDc2r.jpg" alt="gra" class="img-responsive">
 				<div class="overlay">
 					<div class="text">
-						<h1>Kamień Papier Nożyce</h1>
+						<h1>Paper Rock Scissors</h1>
 						<a href="https://kr1sss.github.io/game_paper_rock_scissors/" target="_blank">Live Preview</a>
 					</div>	
 				</div>
@@ -111,14 +112,25 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact container-fluid" id="Contact">
+	<section class="technologies verticalLine container-fluid" id="Technologies">
+		<div class="webIcons">
+					<i class="icon-html5-alt"></i><title>html</title>
+					<i class="icon-css3-alt"></i>
+					<i class="icon-sass"></i>
+					<i class="icon-bootstrap"></i>
+					<i class="icon-javascript-alt"></i>
+					<i class="icon-jquery"></i>
+					<i class="icon-grunt"></i>
+					<i class="icon-git"></i>
+				</div>
+	<section class="contact container-fluid" id="Contact2">
 		<div class="row">
 			<div class="col-1 verticalLine aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
-				<h2>Kontakt</h2>
+				<h2>Contact</h2>
 			</div>
 			<div class="col-11 container aos-init aos-animate" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<p>Jeśli jesteś zainteresowany? <br>
-				Napisz do mnie!<br>
+				<p>Are you interested? <br>
+				Please, write to me!<br>
 				<a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 				</a>

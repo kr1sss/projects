@@ -9,7 +9,7 @@
 }
 
 .navbar-inverse {
-	background-color: #a6a6a6;
+	background-color: transparent !important;
 	border-color:transparent;
 	background-image:none;
 	box-shadow:none;
@@ -18,17 +18,23 @@
 .nav.navbar-nav li > a {
 	color: #fff;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 16px;
 	letter-spacing: 2px;
-	padding-right: 20px;
+}
+
+.nav.navbar-nav li {
+	padding: 15px;	
 }
 
 .nav.navbar-nav li > a:hover {
 	background-color: #f06060;
-	border-radius: 4px;
+	border-radius: 50px;
 	transition: 0.5s;
 }
 
+.icon-bar {
+	padding: 2px;
+}
 
 .navbar-collapse {
 	border: none;
@@ -96,7 +102,7 @@ header p {
 }
 
 .aboutMe p {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 50px;
 	margin-top: 180px;
 	margin-left: 100px;
@@ -164,12 +170,26 @@ header p {
 	background-position: 0 100%;
 	color: #6d6d6d;
 	font-weight: bold;
-	transition: 1.4s ease-in-out;
+	transition: 1.2s ease-in-out;
 }
 
 .projects img {
 	height: 50vh;
 }
+
+.webIcons {
+	text-align: center;
+}
+
+.webIcons i {
+	display: inline-block;
+	font-size: 5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.4em;
+	margin-left: 50px;
+}
+
 
 .contact {
 	background-color: #f5f6f7;
@@ -205,8 +225,8 @@ header p {
 
 .contact p {
 	font-size: 35px;
-	line-height: 50px;
-	margin-top: 300px;
+	line-height: 2.4em;
+	margin-top: 250px;
 	margin-left: 100px;
 	text-align: center;
 }
@@ -300,6 +320,10 @@ footer .fa:hover {
     	font-size: 15px;
     	margin-top: 13vh;
     	margin-left: 100px
+    }
+
+    .webIcons i {
+    	font-size: 2.5em;
     }
 }
 
