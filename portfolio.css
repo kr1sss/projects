@@ -396,3 +396,10 @@ footer .fa:hover {
     	font-size: 3em;
     }
 }
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.webIcons i {
+		font-size: 3.5em;
+		margin-left: 50px;
+	}
+}
