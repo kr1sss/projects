@@ -8,6 +8,8 @@
 	padding: 0;
 }
 
+/* navigation */
+
 .navbar-inverse {
 	background-color: transparent !important;
 	border-color:transparent;
@@ -27,7 +29,7 @@
 }
 
 .nav.navbar-nav li > a:hover {
-	background-color: #f06060;
+	background-color: #4f89bc;
 	border-radius: 50px;
 	transition: 0.5s;
 }
@@ -60,6 +62,8 @@
 	height: 100%;
 }
 
+/* header */
+
 header h1 {
 	color: #fff;
 	font-weight: 700;
@@ -81,6 +85,8 @@ header p {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/* section about me */
 
 .aboutMe {
 	background-color: #f5f6f7;
@@ -108,8 +114,80 @@ header p {
 	margin-left: 100px;
 }
 
+/* icons of frameworks/technologies */
+
+.webIcons {
+	text-align: center;
+}
+
+.webIcons i {
+	display: inline-block;
+	font-size: 5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.4em;
+	margin-left: 50px;
+	transition: 1s ease-out;
+	-moz-transition: 1s ease-out;
+	-webkit-transition: 1s ease-out;
+}
+
+.icon-html5-alt:hover {
+	color: #f16529;
+	transform: scale(1.5);
+}
+
+.icon-css3-alt:hover {
+	color: #1f62ae;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-sass:hover {
+	color: #cf649a;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-bootstrap:hover {
+	color: #5d3f87;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-javascript-alt:hover {
+	color: #f0db4f;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-jquery:hover {
+	color: #0968ac;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-grunt:hover {
+	color: #fcaa1a;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-git:hover {
+	color: #f34f29;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+/* section projects */
+
+.projects img {
+	height: 50vh;
+}
+
 .image-container {
 	position: relative;
+	border: 5px solid #fff;
 }
 
 .img-responsive {
@@ -173,23 +251,13 @@ header p {
 	transition: 1.2s ease-in-out;
 }
 
-.projects img {
-	height: 50vh;
+.overlay p {
+	color: #fff;
+	font-size: 15px;
+	margin-top: 50px;
 }
 
-.webIcons {
-	text-align: center;
-}
-
-.webIcons i {
-	display: inline-block;
-	font-size: 5em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding: 0.4em;
-	margin-left: 50px;
-}
-
+/* section contact */
 
 .contact {
 	background-color: #f5f6f7;
@@ -231,6 +299,8 @@ header p {
 	text-align: center;
 }
 
+/* footer */
+
 footer {
 	background-color: #a6a6a6;
 	text-align: center;
@@ -254,6 +324,8 @@ footer .fa:hover {
 	color: #4f89bc;
 	cursor: pointer;
 }
+
+/* grid */
 
 .row:before,
 .row:after {
@@ -279,6 +351,8 @@ footer .fa:hover {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
+/* query medias */
 
 @media (max-width: 767px) {
 	.col-s-1 {width: 8.33%;}
