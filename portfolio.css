@@ -68,7 +68,7 @@ header h1 {
 	color: #fff;
 	font-weight: 700;
 	font-family: 'Montserrat',sans-serif;
-	font-size: 100px;
+	font-size: 6.25em;
 	letter-spacing: 5px;
 	margin-top: 30vh;
 	text-transform: uppercase;
@@ -79,7 +79,7 @@ header p {
 	color: #fff;
 	font-family: 'Montserrat',sans-serif;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 3.125em;
 	letter-spacing: 4px;
 	margin-top: 150px;
 	text-transform: uppercase;
@@ -97,7 +97,7 @@ header p {
 
 .aboutMe h2 {
 	color: #6d6d6d;
-	font-size: 70px;
+	font-size: 4.375em;
 	font-family: 'Montserrat',sans-serif;
 	letter-spacing: 4px;
 	margin: 50px 0 50px 50px;
@@ -108,10 +108,13 @@ header p {
 }
 
 .aboutMe p {
-	font-size: 30px;
+	font-size: 1.875em;
 	line-height: 50px;
-	margin-top: 180px;
 	margin-left: 100px;
+}
+
+.aboutMe p:first-child {
+	margin-top: 200px;
 }
 
 /* icons of frameworks/technologies */
@@ -226,7 +229,7 @@ header p {
 	color: #fff;
 	font-family: 'Montserrat',sans-serif;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 1.56em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
@@ -253,7 +256,7 @@ header p {
 
 .overlay p {
 	color: #fff;
-	font-size: 15px;
+	font-size: 1em;
 	margin-top: 50px;
 }
 
@@ -281,7 +284,7 @@ header p {
 
 .contact h2 {
 	color: #6d6d6d;
-	font-size: 70px;
+	font-size: 4.375em;
 	font-family: 'Montserrat',sans-serif;
 	letter-spacing: 4px;
 	margin: 50px 0 50px 50px;
@@ -292,7 +295,7 @@ header p {
 }
 
 .contact p {
-	font-size: 35px;
+	font-size: 2em;
 	line-height: 2.4em;
 	margin-top: 250px;
 	margin-left: 100px;
@@ -307,7 +310,7 @@ footer {
 }
 
 footer .fa {
-	font-size: 50px;
+	font-size: 3.125em;
 	display: inline-block;
 	padding: 15px;
 }
@@ -369,31 +372,36 @@ footer .fa:hover {
     .col-s-12 {width: 100%;}
 
     header h1 {	
-    	font-size: 40px;
+    	font-size: 2.5em;
+    	margin-top: 10vh;
     }
 
     header p {
-    	font-size: 20px;
+    	font-size: 1.25em;
+    	margin-top: 70px;
     }
 
     .aboutMe h2 {
-    	font-size: 30px;
+    	font-size: 1.87em;
     }
 
     .aboutMe p {
-    	font-size: 15px;
-    	margin-top: 60px;
+    	font-size: 0.75em;
     	margin-left: 100px;
     }
 
+    .aboutMe p:first-child {
+    	margin-top: 50px;
+    }
+
     .contact h2 {
-    	font-size: 35px;
+    	font-size: 2em;
     }
 
     .contact p {
-    	font-size: 15px;
-    	margin-top: 13vh;
-    	margin-left: 100px
+    	font-size: 0.9em;
+    	margin-top: 150px;
+    	margin-left: 100px;
     }
 
     .webIcons i {
@@ -416,30 +424,33 @@ footer .fa:hover {
     .col-m-12 {width: 100%;}
 
     header h1 {	
-    	font-size: 50px;
+    	font-size: 3.125em;
     }
 
     header p {
-    	font-size: 30px;
+    	font-size: 1.875em;
     }
 
     .aboutMe h2 {
-    	font-size: 40px;
+    	font-size: 2.5em;
     }
 
     .aboutMe p {
-    	font-size: 15px;
-    	margin-top: 120px;
+    	font-size: 1.2em;
     	margin-left: 100px;
     }
 
+    .aboutMe p:first-child {
+    	margin-top: 80px;
+    }
+
     .contact h2 {
-    	font-size: 40px;
+    	font-size: 2.5em;
     }
 
     .contact p {
-    	font-size: 15px;
-    	margin-top: 13vh;
+    	font-size: 1.2em;
+    	margin-top: 150px;
     	margin-left: 100px
     }
 
@@ -464,14 +475,44 @@ footer .fa:hover {
     .col-l-11 {width: 91.66%;}
     .col-l-12 {width: 100%;}
 
+    .aboutMe h2 {
+    	font-size: 2.5em;
+    }
+
+    .aboutMe p {
+    	font-size: 1.5em;
+    }
+
+    .aboutMe p:first-child {
+    	margin-top: 100px;
+    }
+
     .webIcons i {
     	margin-left: 100px;
     	margin-right: 50px;
     	font-size: 3em;
     }
+
+    .contact h2 {
+    	font-size: 2.5em;
+    }
+
+    .contact p {
+    	font-size: 1.5em;
+    	margin-top: 150px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
+
+	.aboutMe h2 {
+    	font-size: 2.5em;
+    }
+
+    .aboutMe p:first-child {
+    	margin-top: 100px;
+    }
+
 	.webIcons i {
 		font-size: 3.5em;
 		margin-left: 50px;
