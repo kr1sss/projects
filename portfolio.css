@@ -70,7 +70,7 @@ header h1 {
 	font-family: 'Montserrat',sans-serif;
 	font-size: 6.25em;
 	letter-spacing: 5px;
-	margin-top: 30vh;
+	margin-top: 250px;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -373,7 +373,7 @@ footer .fa:hover {
 
     header h1 {	
     	font-size: 2.5em;
-    	margin-top: 10vh;
+    	margin-top: 100px;
     }
 
     header p {
@@ -386,7 +386,7 @@ footer .fa:hover {
     }
 
     .aboutMe p {
-    	font-size: 0.75em;
+    	font-size: 1em;
     	margin-left: 100px;
     }
 
@@ -399,8 +399,8 @@ footer .fa:hover {
     }
 
     .contact p {
-    	font-size: 0.9em;
-    	margin-top: 150px;
+    	font-size: 1em;
+    	margin-top: 130px;
     	margin-left: 100px;
     }
 
@@ -410,18 +410,6 @@ footer .fa:hover {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
 
     header h1 {	
     	font-size: 3.125em;
