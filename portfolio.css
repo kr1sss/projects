@@ -394,6 +394,14 @@ footer .fa:hover {
     	margin-top: 50px;
     }
 
+    .text h1 {
+    	font-size: 1.2em;
+    }
+
+    .overlay {
+    	font-size: 0.8em;
+    }
+
     .contact h2 {
     	font-size: 2em;
     }
