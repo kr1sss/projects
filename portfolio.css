@@ -260,6 +260,10 @@ header p {
 	margin-top: 50px;
 }
 
+.overlay p:nth-child(even) {
+	margin-top: 15px;
+}
+
 /* section contact */
 
 .contact {
