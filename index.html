@@ -35,21 +35,25 @@
 		                </div>
 		            </div>
 	        	</nav>
-				<h1>Hello! I'm Krzysztof</h1>
-				<p>Junior front-end developer</p>
+	        	<div class="headerSubtitles">
+					<h1>Hello! I'm Krzysztof</h1>
+					<p>Junior front-end developer</p>
+				</div>
 			</div>
 		</div>
 	</header>
 	<section class="aboutMe container-fluid" id="About2">
 		<div class="row">
-			<div class="col-1 verticalLine aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
+			<div class="col-1 verticalLine">
 				<h2>About me</h2>
 			</div>
-			<div class="col-11 aos-init aos-animate description" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<p>I've been learning coding for few months and I really like it!</p>
-				<p>I like creating and seeing my effects of work.</p>
-				<p>Below are the technologies/frameworks I've recently known.</p>
-				<p>I'm determined to get know new things to extend my knowledge.</p>
+			<div class="col-11 aos-init aos-animate" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos="flip-right">
+				<div class="description">
+					<p>I've been learning coding for few months and I really like it!</p>
+					<p>I like creating and seeing my effects of work.</p>
+					<p>Below are the technologies/frameworks I've recently known.</p>
+					<p>I'm determined to get know new things to extend my knowledge.</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -137,16 +141,29 @@
 	</section>
 	<section class="contact container-fluid" id="Contact2">
 		<div class="row">
-			<div class="col-1 verticalLine aos-init aos-animate" data-aos-delay="500" data-aos="fade-right">
+			<div class="col-1 verticalLine">
 				<h2>Contact</h2>
 			</div>
-			<div class="col-11 container aos-init aos-animate" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<p>Are you interested? <br>
-				Please, write to me!<br>
-				<a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">
-				<i class="fa fa-envelope" aria-hidden="true"></i>
-				</a>
-				</p>
+			<div class="col-11 container aos-init aos-animate" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos="flip-right">
+				<form action="mailto:krzysztof.naliwajko@gmail.com" method="post">
+					<div class="form-group">
+						<input type="text" id="form_name" name="name" class="form-control" placeholder="Name" required pattern="[A-Za-z0-9\s]+" title="Fill text area">
+						<input type="email" id="form_email" name="email" aria-describedby="emailHelp" class="form-control" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Fill text area"><br>
+						<textarea id="form_message" name="message" class="form-control" placeholder="Your message" rows="6" required title="Fill text area"></textarea>
+						<input type="submit" class="buttonSubmit btn-send" value="Send message">
+						<input type="reset" class="buttonSubmit btn-delete" value="Clear message">
+					</div>
+				</form>
+				<div class="directContact" style="text-align:center;">
+					<i class="fa fa-phone" aria-hidden="true"> 
+						<span style="font-size: 0.7em;"> 509 221 497</span>
+					</i>
+					<a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">
+						<i class="fa fa-envelope" aria-hidden="true">
+							<span style="font-size: 0.7em;"> krzysztof.naliwajko@gmail.com</span>
+						</i>
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
