@@ -361,7 +361,7 @@ header p {
 	color: #fff;
 	margin-top: 20px;
 	margin-left: 100px;
-	width: 85%;
+	width: 75%;
 }
 
 .contact .btn-send {
@@ -378,8 +378,8 @@ header p {
 	font-size: 3.125em;}
 }
 
-.contact span {
-	display: initial;
+.directContact {
+	display: relative;
 }
 
 .buttonSubmit {
@@ -489,6 +489,14 @@ footer .fa:hover {
     	margin-top: 50px;
     }
 
+    .description {
+    	margin-left: 100px;
+    }
+
+    .description p {
+    	margin-left: 0;
+    }
+
     .text h1 {
     	font-size: 1.1em;
     }
@@ -510,6 +518,21 @@ footer .fa:hover {
     .webIcons i {
     	font-size: 2.5em;
     }
+
+    .contact .form-control {
+		width: 70%;
+	}
+
+	.buttonSubmit {
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
+
+	.directContact a {
+		font-size: 0.5em;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -551,6 +574,10 @@ footer .fa:hover {
     	margin-right: 50px;
     	font-size: 2.5em;
     }
+
+    .contact .form-control {
+		width: 75%;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -577,6 +604,10 @@ footer .fa:hover {
 
     .aboutMe p:first-child {
     	margin-top: 100px;
+    }
+
+    .description {
+    	margin-left: 150px;
     }
 
     .webIcons i {
