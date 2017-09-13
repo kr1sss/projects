@@ -145,10 +145,10 @@
 				<h2>Contact</h2>
 			</div>
 			<div class="col-11 container aos-init aos-animate" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<form action="mailto:krzysztof.naliwajko@gmail.com" method="post">
+				<form action="mailto:krzysztof.naliwajko@gmail.com" method="post" enctype="multipart/form-data">
 					<div class="form-group">
 						<input type="text" id="form_name" name="name" class="form-control" placeholder="Name" required pattern="[A-Za-z0-9\s]+" title="Fill text area">
-						<input type="email" id="form_email" name="email" aria-describedby="emailHelp" class="form-control" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Fill text area"><br>
+						<input type="email" id="form_email" name="email" aria-describedby="emailHelp" class="form-control" placeholder="Email" required pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Fill text area"><br>
 						<textarea id="form_message" name="message" class="form-control" placeholder="Your message" rows="6" required title="Fill text area"></textarea>
 						<input type="submit" class="buttonSubmit btn-send" value="Send message">
 						<input type="reset" class="buttonSubmit btn-delete" value="Clear message">
@@ -160,7 +160,6 @@
 					</i>
 					<a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">
 						<i class="fa fa-envelope" aria-hidden="true">
-							<span style="font-size: 0.7em;"> krzysztof.naliwajko@gmail.com</span>
 						</i>
 					</a>
 				</div>

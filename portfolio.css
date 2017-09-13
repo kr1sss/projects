@@ -340,6 +340,14 @@ header p {
 	100% {height: 100%;}
 }
 
+@-moz-keyframes vertical {
+	0% {height: 0%;}
+	25% {height: 25%;}
+	50% {height: 50%;}
+	75% {height: 75%;}
+	100% {height: 100%;}
+}
+
 .contact h2 {
 	color: #595555;
 	font-size: 4.375em;
@@ -388,18 +396,35 @@ header p {
 	color: #fff;
 	padding: 15px;
 	margin-right: 50px;
+	transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
 }
 
 .buttonSubmit:hover {
-	background-color: #595555;
-	color: #fc7171;
-	font-weight: bold;
+	-webkit-animation-name: buttonShake;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes buttonShake {
+	0% {-webkit-transform: translate(2px, 1px) rotate(0deg);}
+	25% {-webkit-transform: translate(-1px, -2px) rotate(-1deg);}
+	50% {-webkit-transform: translate(1px, 2px) rotate(1deg);}
+	75% {-webkit-transform: translate(3px, -1px) rotate(-1deg);}
+	100% {-webkit-transform: translate(1px, 1px) rotate(0deg);}
+}
+
+.directContact a:hover {
+	text-decoration: none;
 }
 
 /* footer */
 
 footer {
-	background-color: #a6a6a6;
+	background-color: #595555;
 	text-align: center;
 }
 
