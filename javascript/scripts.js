@@ -10,17 +10,17 @@ $('#scroll-top').click(function() {
 $('#About1').click(function() {
 	$('html, body').animate({
 		scrollTop: $('#About2').offset().top},
-		700);
+		600);
 });
 
 $('#Project1').click(function() {
 	$('html, body').animate({
 		scrollTop: $('#Project2').offset().top},
-		1000);
+		700);
 });
 
 $('#Contact1').click(function() {
 	$('html, body').animate({
 		scrollTop: $('#Contact2').offset().top},
-		1200);
+		700);
 });
