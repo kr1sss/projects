@@ -142,6 +142,10 @@ header p {
 	font-size: 1.875em;
 }
 
+.aboutMe p:first-child {
+    margin-top: 100px;
+}
+
 .description {
 	background-color: #595555;
 	margin-left: 50px;
@@ -159,6 +163,7 @@ header p {
 
 .webIcons {
 	text-align: center;
+	margin-right: 20px;
 }
 
 .webIcons i {
@@ -186,6 +191,12 @@ header p {
 
 .icon-sass:hover {
 	color: #cf649a;
+	transform: scale(1.5);
+	transition: 0.7s ease;
+}
+
+.icon-wordpress:hover {
+	color: #21759b;
 	transform: scale(1.5);
 	transition: 0.7s ease;
 }
@@ -510,6 +521,7 @@ footer .fa:hover {
 
     .aboutMe h2 {
     	font-size: 1.5em;
+    	margin-left: 30px;
     }
 
     .aboutMe p {
@@ -521,7 +533,7 @@ footer .fa:hover {
     }
 
     .description {
-    	margin-left: 70px;
+    	margin-left: 50px;
     	width: 80%;
     }
 
@@ -554,6 +566,7 @@ footer .fa:hover {
 
     .contact .form-control {
 		width: 70%;
+		margin-left: 70px;
 	}
 
 	.buttonSubmit {
