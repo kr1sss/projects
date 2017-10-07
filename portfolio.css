@@ -329,35 +329,10 @@ header p {
 	position: absolute;
 	right: -20px;
 	top: 0;
-	width: 7px;
+	width: 10px;
 	height: 100%;
 	background: #9778B2;
-	border-radius: 1px;
-	-webkit-animation-name: vertical;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-moz-animation-name: vertical;
-	-moz-animation-duration: 3s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-direction: alternate;
-}
-
-@-webkit-keyframes vertical {
-	0% {height: 0%;}
-	25% {height: 25%;}
-	50% {height: 50%;}
-	75% {height: 75%;}
-	100% {height: 100%;}
-}
-
-@-moz-keyframes vertical {
-	0% {height: 0%;}
-	25% {height: 25%;}
-	50% {height: 50%;}
-	75% {height: 75%;}
-	100% {height: 100%;}
+	border-radius: 8px;
 }
 
 .contact h2 {
