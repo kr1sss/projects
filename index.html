@@ -4,181 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/fonts/font-mfizz.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="aos/dist/aos.css">
+    <link rel="stylesheet" href="font-mfizz/font-mfizz-2.4.1/font-mfizz.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
-    <title>Portfolio/CV</title>
+    <title>Portfolio</title>
 </head>
 <body>
-	<header id="Home">
-		<div class="background">
-			<div class="layer">
-				<nav class="navbar navbar-inverse" role="navigation">
-		            <div class="container">
-		                <div class="navbar-header">
-		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		                        <span class="icon-bar"></span>
-		                        <span class="icon-bar"></span>
-		                        <span class="icon-bar"></span>
-		                    </button>
-		                </div>
-		                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		                    <ul class="nav navbar-nav navbar-right">
-		                        <li><a href="#Home">Home</a></li>
-		                        <li><a href="#" id="About1">About me</a></li>
-		                        <li><a href="#" id="Project1">Projects</a></li>
-		                        <li><a href="#" id="Contact1">Contact</a></li>
-		                    </ul>
-		                </div>
-		            </div>
-	        	</nav>
-	        	<div class="headerSubtitles">
-					<h1>Hello! I'm Krzysztof</h1>
-					<p>Junior front-end developer</p>
-				</div>
-			</div>
+	<main>
+		<div class="background-image">
 		</div>
-	</header>
-	<section class="aboutMe container-fluid" id="About2">
-		<div class="row">
-			<div class="col-1 verticalLine">
-				<h2>About me</h2>
-			</div>
-			<div class="col-11 aos-init aos-animate" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<div class="description">
-					<p>I've been learning coding for few months and I really like it!</p>
-					<p>I like creating and seeing my effects of work.</p>
-					<p>Below are the technologies/frameworks I've recently known.</p>
-					<p>I'm determined to get know new things to extend my knowledge.</p>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#about-me">About me<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#skills">Skills</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#what-can-i-do">Abilities</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<section class="container">
+			<div>
+				<div class="about-me" id="about-me">
+					<h1>About me</h1>
+					<p>I'm Krzysztof and I'm 29 years old. I've been learning and making websites for 1 year. Really enjoy it and hope to improve my skills in next months. I'm looking for job to extend my knowledge and I'm hoping some day my wishes will come true. </p>
 				</div>
 			</div>
-		</div>
-	</section>
-	<section class="technologies" id="Technologies">
-		<div class="webIcons">
-			<div class="row container-fluid">
-				<div class="col-12">
-					<i class="icon-html5-alt"></i>
-					<i class="icon-css3-alt"></i>
-					<i class="icon-sass"></i>
-					<i class="icon-wordpress"></i>
-				</div>
-			</div>
-			<div class="row container-fluid">
-				<div class="col-12">
-					<i class="icon-bootstrap"></i>
-					<i class="icon-javascript-alt"></i>
-					<i class="icon-jquery"></i>
-					<i class="icon-grunt"></i>
-					<i class="icon-git"></i>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="projects container-fluid" id="Project2">
-		<div class="row">
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
-				<img src="http://i.imgur.com/f0fZ8SA.jpg" alt="gra" class="img-responsive">
-				<div class="overlay">
-					<div class="text">
-						<h1>Paper Rock Scissors</h1>
-						<a href="https://kr1sss.github.io/game_paper_rock_scissors/" target="_blank">Live Preview</a>
-						<p>was written in Javascript</p>
-					</div>	
-				</div>
-			</div>
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="400">
-				<img src="http://i.imgur.com/OhwCZW8.jpg" alt="strona1" class="img-responsive">
-				<div class="overlay">
-					<div class="text">
-						<h1>PSD to HTML</h1>
-						<a href="https://kr1sss.github.io/Page21/" target="_blank">Live Preview</a>
-						<p>was written in HTML and CSS</p>
-					</div>	
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
-				<img src="http://i.imgur.com/20fyB5I.jpg" alt="strona2" class="img-responsive">
-				<div class="overlay">
-					<div class="text">
-						<h1>PSD to HTML</h1>
-						<a href="https://kr1sss.github.io/Page22/" target="_blank">Live Preview</a>
-						<p>was written in HTMl and CSS</p>
-					</div>	
-				</div>
-			</div>
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-				<img src="http://i.imgur.com/ukxBBUt.jpg" alt="strona3" class="img-responsive">
-				<div class="overlay">
-					<div class="text">
-						<h1>PSD to HTML</h1>
-						<a href="https://kr1sss.github.io/Site/" target="_blank">Live Preview</a>
-						<p>was written in HTMl, CSS and Javascript</p>
-					</div>	
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-				<img src="http://i.imgur.com/6GJRftO.jpg" alt="twitterApi" class="img-responsive">
-				<div class="overlay">
-					<div class="text">
-						<h1>Random Quote Machine</h1>
-						<a href="https://kr1sss.github.io/tweetOfTheDay/" target="_blank">Live Preview</a>
-						<p>was written in jQuery</p>
-						<p>there was also used technology AJAX</p>
-					</div>	
-				</div>
-			</div>
-			<div class="col-6 col-s-12 image-container aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-				<img src="http://i.imgur.com/5GcwU6i.jpg" alt="gra" class="img-responsive">
-				<div class="overlay ">
-					<div class="text">
-						<h1>Kanban</h1>
-						<a href="https://kr1sss.github.io/API_extendedKanban/" target="_blank">Live Preview</a>
-						<p>was written in CSS and jQuery</p>
-						<p>there was also used technology API</p>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="contact container-fluid" id="Contact2">
-		<div class="row">
-			<div class="col-1 verticalLine">
-				<h2>Contact</h2>
-			</div>
-			<div class="col-11 container aos-init aos-animate" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos="flip-right">
-				<form action="mailto:krzysztof.naliwajko@gmail.com" method="post" enctype="multipart/form-data">
-					<div class="form-group">
-						<input type="text" id="form_name" name="name" class="form-control" placeholder="Name" required pattern="[A-Za-z0-9\s]+" title="Fill text area">
-						<input type="email" id="form_email" name="email" aria-describedby="emailHelp" class="form-control" placeholder="Email" required pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Fill text area"><br>
-						<textarea id="form_message" name="message" class="form-control" placeholder="Your message" rows="6" required title="Fill text area"></textarea>
-						<input type="submit" class="buttonSubmit btn-send" value="Send message">
-						<input type="reset" class="buttonSubmit btn-delete" value="Clear message">
+			<div>
+				<div class="projects" id="projects">
+					<h1>Projects</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://13vip.com.pl/" target="_blank">
+									<img src="https://i.imgur.com/oIzJmvh.jpg" alt="13vip" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>Wordpress, HTML, CSS</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kominkiborowscy.pl/" target="_blank">
+									<img src="https://i.imgur.com/Xc7hNIt.jpg" alt="fireplace borowscy" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>Wordpress, HTML, CSS</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://13vip.com.pl/" target="_blank">
+									<img src="https://i.imgur.com/l5hVxuL.jpg" alt="battleship" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>Javascript</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
 					</div>
-				</form>
-				<div class="directContact" style="text-align:center;">
-					<i class="fa fa-phone" aria-hidden="true"> 
-						<span class="span-size"> 509 221 497</span>
-					</i>
-					<a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">
-						<i class="fa fa-envelope" aria-hidden="true">
-						</i>
-					</a>
+					<div class="row projects-second-row">
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kr1sss.github.io/game_paper_rock_scissors/" target="_blank">
+									<img src="http://i.imgur.com/f0fZ8SA.jpg" alt="game rock paper scissors" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>Javascript</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kr1sss.github.io/API_extendedKanban/" target="_blank">
+									<img src="http://i.imgur.com/5GcwU6i.jpg" alt="kanban board" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>jQuery and API</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://nzozgaudium.com.pl/" target="_blank">
+									<img src="https://i.imgur.com/uNx0ZgC.jpg" alt="clinic" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>Javascript</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row projects-second-row">
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kr1sss.github.io/Site/" target="_blank">
+									<img src="http://i.imgur.com/ukxBBUt.jpg" alt="page" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>PSD to HTML</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kr1sss.github.io/Page22/" target="_blank">
+									<img src="http://i.imgur.com/20fyB5I.jpg" alt="page second" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>PSD to HTML</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="projects-pictures">
+								<a href="https://kr1sss.github.io/tweetOfTheDay/" target="_blank">
+									<img src="http://i.imgur.com/6GJRftO.jpg" alt="API twitter" class="img-responsive project-picture">
+									<div class="overlay-pictures">
+										<div class="text-pictures">
+											<p>jQuery and AJAX</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<footer class="container-fluid">
-		<a href="https://github.com/kr1sss" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-		<i class="fa fa-arrow-up" id="scroll-top" aria-hidden="true" style="float: right;"></i>
-	</footer>
+			<div>
+				<div class="skills" id="skills">
+					<h1>Skills</h1>
+					<p>HTML5, CSS3</p>
+					<p>Bootstrap 4</p>
+					<p>Wordpress, Woocomerce, Prestashop</p>
+					<p>Javascript, jQuery</p>
+					<p>GitHub</p>
+					<p>Adobe Photoshop</p>
+				</div>
+			</div>
+			<div>
+				<div class="what-can-i-do" id="what-can-i-do">
+					<h1>Abilities</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<h2>Responsive web design</h2>
+							<i class="icon-mobile-device"></i>
+						</div>
+						<div class="col-md-4">
+							<h2>PSD to HTML</h2>
+							<i class="icon-html"></i>
+						</div>
+						<div class="col-md-4">
+							<h2>Website positioning</h2>
+							<i class="icon-line-graph"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="contact" id="contact">
+					<h1>Contact</h1>
+					<p><a href="mailto:krzysztof.naliwajko@gmail.com" target="_blank">krzysztof.naliwajko@gmail.com</a></p>
+					<a href="https://github.com/kr1sss" target="_blank"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="aos/dist/aos.js"></script>
 	<script src="javascript/scripts.js"></script>
 </body>
